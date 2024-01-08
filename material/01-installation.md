@@ -59,3 +59,14 @@ sudo pacman -S git
   ```bash
   sudo port install git
   ```
+
+# Identity configurtion
+
+Configuing your identity assigns your name and email to each commit you make on your machine, we'll talk about commits and blame later on, but do the configurtion now so Git won't get confused when you make a commit, you don't wanna upset Git, do you?
+
+```bash
+git config --global user.name "Full Name"
+git config --global user.email "your@example.com"
+```
+
+The first thing you should do when you install Git is to set your user name and email address. This is important because every Git commit uses this information, and it’s immutably baked into the commits you start creating:
