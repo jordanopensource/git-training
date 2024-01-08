@@ -93,4 +93,28 @@ git checkout -- <file-name>
 
 ## Pushing and Pulling
 
+When you make changes on a local repository, you need to synchronize those changes with the remote repository, and the way to do that is **pushing** your changes
+
+```bash
+git push
+```
+
+And vice versa, when you want to update your local repository from the remote repository, you **pull** the changes to your local repository
+
+```bash
+git pull
+```
+
 ## Understanding status and logs
+
+You can view the full commit history of a repository's branch by running the command
+
+```bash
+git log
+```
+
+And you can check the repository's current status (untracked, modified and staged files), by running the command
+
+```bash
+git status
+```
