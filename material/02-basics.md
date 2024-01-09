@@ -1,6 +1,25 @@
 # Git basics
 
-Make sure that you have `git` installed on your machine, if not, refer to [this](/material/01-installation.md) page.
+## Reading Resources
+
+### Git
+
+* [Git](https://git-scm.com/) is a distributed version-control system for tracking changes in source code during software development.
+* [Git Book](https://git-scm.com/book/en/v2) -- **IMPORTANT**
+* [Learn Git from Atlassian](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+
+### Github
+
+* [Github](https://github.com) is a US-based global company that provides hosting for software development version control using Git.
+
+### Command Tutorials
+
+* [Git Commands Tutorial - Part 1](https://kolosek.com/git-commands-tutorial-part1/)
+* [Git Commands Tutorial - Part 2](https://kolosek.com/git-commands-tutorial-part2/)
+
+## Installation
+
+Installation file:  [01-installation.md](/material/01-installation.md)
 
 ## Initializing repositories
 
@@ -50,10 +69,10 @@ All Git hosts support forking a public repository, where you copy the repository
 
 Each file in a Git repository goes throgh the four Git file stages:
 
-- **Untracked**: The file is newly created or moved from another directory to a Git directory, and Git doesn't keep any track of it.
-- **Unmodified**: The file is tracked by Git, i.e has been commited before, and has no new changes.
-- **Modified**: An uncommited file that has been modified but not committed yet.
-- **Staged**: A modified file that has been added to be commited.
+* **Untracked**: The file is newly created or moved from another directory to a Git directory, and Git doesn't keep any track of it.
+* **Unmodified**: The file is tracked by Git, i.e has been commited before, and has no new changes.
+* **Modified**: An uncommited file that has been modified but not committed yet.
+* **Staged**: A modified file that has been added to be commited.
 
 Here's a figure showing the relations between the four stages.
 ![git files stages](/resourses/git-files-stages.png)
