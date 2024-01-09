@@ -1,6 +1,6 @@
 # Initializing a New Repository
 
-### Start by Cloning
+## Start by Cloning
 
 To clone an existing Git repository you can use the following command.
 
@@ -8,7 +8,7 @@ To clone an existing Git repository you can use the following command.
 git clone REMOTE_URL
 ```
 
-### Start by Initializing
+## Start by Initializing
 
 To initialize a new Git repository in a folder called `recipe` you can use the following command.
 
@@ -30,7 +30,7 @@ On branch main
 No commits yet
 ```
 
-### Create Some Files
+## Create Some Files
 
 Now let us add some files to our repository.
 
@@ -46,7 +46,7 @@ Now let us add some files to our repository.
 
 2. Create a file called ingredients.txt and contains:
 
-```
+```bash
 * 2 avocados
 * 1 lime
 * 2 tsp salt
@@ -70,7 +70,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-#### Check Your Knowledge
+### Check Your Knowledge
 
 * What is the current status of the repository?
 * What is the current status of the repository compared to the status in the section above?
@@ -116,7 +116,7 @@ Right after we query the status to get this useful command into our muscle memor
 $ git status
 ```
 
-#### Check Your Knowledge
+### Check Your Knowledge
 
 * What does the `-m` flag mean? Check out the help page for the `commit` subcommand.
 
@@ -155,7 +155,7 @@ Now you can go ahead and stage your changes *separately*, one commit with the ch
 
 After committing the changes to your local repository, you can use `git log` to verify your changes have been committed.
 
-#### Check Your Knowledge
+### Check Your Knowledge
 
 * What is different between the files?
 * How does the diff tool work?
