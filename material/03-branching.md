@@ -29,19 +29,19 @@ You can also create a new branch and checkout into it at the same time using thi
 git checkout -b <branch-name>
 ```
 
-To delete a branch that have been merged with the default branch, run this command
+To delete a branch that have been merged with the default branch or the branch that it has been checked out from, run this command
 
 ```bash
 git branch -d <branch-name>
 ```
 
-To delete a branch either way, run this command
+To delete a branch without checking that it was merged into its default branch or the branch that it has been checked out from, run this command
 
 ```bash
 git branch -D <branch-name>
 ```
 
-Keep in mind that this is a dangerous command, where it will delete the branch without any confirmation.
+Keep in mind that this is a dangerous command, where it will delete the branch locally without any confirmation.
 
 To delete a remote branch, run this command
 
