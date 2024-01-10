@@ -137,3 +137,7 @@ And you can check the repository's current status (untracked, modified and stage
 ```bash
 git status
 ```
+
+___
+
+### [⇐ Previous](/material/01-installation.md) | [Next ⇒](/material/03-branching.md)

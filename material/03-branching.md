@@ -48,3 +48,7 @@ To delete a remote branch, run this command
 ```bash
 git push <remote_name> --delete <branch_name>
 ```
+
+___
+
+### [⇐ Previous](/material/02-basics.md) | [Next ⇒](/material/04-merging.md)

@@ -70,3 +70,7 @@ git config --global user.email "your@example.com"
 ```
 
 The first thing you should do when you install Git is to set your user name and email address. This is important because every Git commit uses this information, and it’s immutably baked into the commits you start creating:
+
+___
+
+### [⇐ Previous](/README.md) | [Next ⇒](/material/02-basics.md)

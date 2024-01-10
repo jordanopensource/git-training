@@ -63,3 +63,7 @@ For example:
 - Android Studio
 
 If your IDE doen't have a merge resolver tool, use meld it does the job perfectly.
+
+___
+
+### [⇐ Previous](/material/03-branching.md.) | [Got to start ⇒](/README.md)
