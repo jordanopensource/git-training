@@ -75,6 +75,7 @@ Each file in a Git repository goes through the four Git file stages:
 * **Staged**: A modified file that has been added to be committed.
 
 Here's a figure showing the relations between the four stages.
+
 ![git files stages](/resourses/git-files-stages.png)
 
 ### Committing a file
