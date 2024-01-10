@@ -61,23 +61,23 @@ This will create a new directory named `git-training` with the content of the cl
 
 ### Forking a repository
 
-Forking; and its name gives it away, it's making a fork, like road forks, where a main road is forked side road(s), and evantually it looks like an eating fork, the same concept applied to Git repositories, where there's a main branch (road) on a repository, and you create a fork branch (side road) of it.
+Forking; and its name gives it away, it's making a fork, like road forks, where a main road is forked side road(s), and eventually it looks like an eating fork, the same concept applied to Git repositories, where there's a main branch (road) on a repository, and you create a fork branch (side road) of it.
 
 All Git hosts support forking a public repository, where you copy the repository into your account or organization.
 
 ## Staging and commits
 
-Each file in a Git repository goes throgh the four Git file stages:
+Each file in a Git repository goes through the four Git file stages:
 
 * **Untracked**: The file is newly created or moved from another directory to a Git directory, and Git doesn't keep any track of it.
-* **Unmodified**: The file is tracked by Git, i.e has been commited before, and has no new changes.
-* **Modified**: An uncommited file that has been modified but not committed yet.
-* **Staged**: A modified file that has been added to be commited.
+* **Unmodified**: The file is tracked by Git, i.e has been committed before, and has no new changes.
+* **Modified**: An uncommitted file that has been modified but not committed yet.
+* **Staged**: A modified file that has been added to be committed.
 
 Here's a figure showing the relations between the four stages.
 ![git files stages](/resourses/git-files-stages.png)
 
-### Commiting a file
+### Committing a file
 
 After creating a file (untracked) or editing an existing one (unmodified), you can add the file to the staging area, by running this command.
 
@@ -100,7 +100,7 @@ Now to move the file into the unmodified stage, commit the file with a commit me
 git commit -m "Create <file-name>"
 ```
 
-Now the file that you have just commited is in the unmodified stage, where if you made a new modification to it it will get moved to the modified stage, and the cycle continues...
+Now the file that you have just committed is in the unmodified stage, where if you made a new modification to it it will get moved to the modified stage, and the cycle continues...
 
 ### Discarding changes done after a commit
 
