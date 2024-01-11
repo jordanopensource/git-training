@@ -141,4 +141,30 @@ git status
 
 ___
 
+### Extra
+
+To remove a file you accidentally staged use the following command:
+
+```bash
+git restore --staging <file_name>
+```
+
+This will move the file or directory from staged to untracked or modified state.
+
+To undo a commit
+
+```bash
+git reset --soft HEAD~
+```
+
+This will undo a commit by 1 you can specify how much commits you want to remove by adding a number after the `~` like so `HEAD~2`.
+
+To modify a commit message
+
+```bash
+git commit --amend
+```
+
+___
+
 ### [⇐ Previous](/material/01-installation.md) | [Next ⇒](/material/03-branching.md)
