@@ -146,7 +146,7 @@ ___
 To remove a file you accidentally staged use the following command:
 
 ```bash
-git restore --staging <file_name>
+git restore --staged <file_name>
 ```
 
 This will move the file or directory from staged to untracked or modified state.
